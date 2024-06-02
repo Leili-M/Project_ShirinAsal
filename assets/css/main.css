@@ -9,6 +9,7 @@
 @font-face {
 	font-family: B Lotus;
 	src: url("B\ Lotus_0.ttf");
+	text-align: right;
 }
 
 html, body, div, span, applet, object,
@@ -2638,16 +2639,20 @@ input, select, textarea {
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image img {
 			display: block;
 			border-radius: 4px;
+			object-fit: contain;
+			
 		}
 
 		.image.left, .image.right {
 			width: 40%;
 			max-width: 10rem;
+			height: auto;
 		}
 
 			.image.left img, .image.right img {
