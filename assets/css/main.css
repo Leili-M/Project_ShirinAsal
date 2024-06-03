@@ -95,6 +95,51 @@ body {
 	-webkit-text-fill-color: transparent;
 	line-height: 400px;
 }
+.mazaya{
+	background: #057275;
+	background: linear-gradient(to right, #057275 8%, #ACC77B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+display: block;
+height: 65px;
+margin-bottom: 15px;
+line-height: 65px;
+
+
+}
+
+.d{ 
+  color: #4F4F4F; 
+  padding-left: 16px;
+  margin-top: 24px;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  
+  &:before {
+    content: '';
+    display: block;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    position: absolute; 
+    top: -12px;
+    left: -46px;
+  }
+}
+
+strong { color: #292929; }
+
+ol.alternating-colors { 
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  letter-spacing: -0.25px;
+  li:nth-child(odd):before { border-color: #0BAD02; }
+  li:nth-child(even):before { border-color: #2378D5; }
+}
 ol, ul {
 	list-style: none;
 }
